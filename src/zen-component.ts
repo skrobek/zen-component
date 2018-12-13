@@ -24,7 +24,7 @@ export class ZenComponent implements IDisposable {
     { filename: 'index', extenstion: 'ts', type: ZenFileType.index },
     { extenstion: 'tsx', type: ZenFileType.component },
     { extenstion: 'spec.tsx', type: ZenFileType.spec },
-    { extenstion: 'stories.js', type: ZenFileType.story },
+    { extenstion: 'stories.tsx', type: ZenFileType.story },
   ];
 
   private readonly componentTypes = [

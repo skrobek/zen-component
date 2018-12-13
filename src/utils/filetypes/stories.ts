@@ -5,8 +5,7 @@ import { withInfo } from '@storybook/addon-info';
 import { withKnobs } from '@storybook/addon-knobs/react';
 // import { action } from '@storybook/addon-actions';
 
-import ${componentName} from './${componentName}.tsx';
-import { componentType } from '../zen-component';
+import ${componentName} from './${componentName}';
 
 const stories = storiesOf('${componentName}', module);
 stories.addDecorator(withKnobs);
@@ -17,7 +16,7 @@ stories.add(
   'default',
   withInfo()(() => (
     <${componentName} {...props} />
-  ))
+  )),
 );
 `);
 
