@@ -2,7 +2,7 @@
   "name": "zen-component",
   "displayName": "zen-component",
   "description": "Generate files for zen react component",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "publisher": "skrobek",
   "engines": {
     "vscode": "^1.28.0"
